@@ -1,0 +1,11 @@
+init module
+go mod init github.com/dattatray001/students-api
+
+
+go get -u github.com/ilyakaznacheev/cleanenv
+go get -u github.com/go-playground/validator/v10
+
+go get modernc.org/sqlite
+
+
+go run cmd\studen-api\main.go --config config\local.yaml
